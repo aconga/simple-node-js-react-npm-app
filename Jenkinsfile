@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh './jenkins/scripts/deliver.sh'
+                sh 'docker ps'
             }
         }
     }
